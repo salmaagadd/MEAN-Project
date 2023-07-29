@@ -1,0 +1,12 @@
+.btn{background-color:var(--secondary-color);color: #fff;padding-left: 45px;}
+h5{
+    padding:35px ; font-weight: bold;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.intro{text-align: center;padding-top: 30px;color: var(--secondary-color);}
+
+h1{padding-top: 5px; font-size: xx-large;font-weight: bold;
+}p{font-weight: bolder;}
+.card-body{border-radius: 50%; overflow: hidden;}.container {overflow: hidden;}.nurses{text-decoration: underline; text-align: center;color: var(--secondary-color);
+font-weight: bold;margin-top: 50px;margin-bottom: 50PX;}
+/*map*/
+.map{margin-top: 70px ;justify-content: center;margin-left: 350px;margin-bottom: 50px;margin-top: 50px;}

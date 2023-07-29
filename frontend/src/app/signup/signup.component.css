@@ -1,0 +1,12 @@
+.container{
+    border: none;
+    width: 500px;
+    background-color:var(--secondary-color);
+padding: 40px;
+margin-top: 0px;
+
+    
+}.container h1{color:#fff;font-weight: bolder;}.btn{background-color: #fff;color: var(--primary-color);border: #fff;}.btn:hover{color: #fff;background-color: var(--primary-color);}
+/*map*/
+.map{margin-top: 70px ;justify-content: center;margin-left: 350px;}
+.container h1{color:var(--primary-color) ;}

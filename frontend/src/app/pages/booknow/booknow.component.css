@@ -1,0 +1,5 @@
+.row{justify-content: center;object-fit: cover;width: 50%;align-content: center;margin-left: 25%;height: 511px;}
+h5{color: var(--primary-color);}
+.form-label{color: var(--primary-color);}.form{background-color: var(--secondary-color);}
+.btn{background-color: var(--primary-color);border-color: var(--primary-color);color: var(--secondary-color);}
+.btn:hover{color:var(--primary-color);background-color: var(--secondary-color);}

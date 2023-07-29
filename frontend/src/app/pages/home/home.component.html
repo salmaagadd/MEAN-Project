@@ -1,0 +1,98 @@
+<!--home slider -->
+<div id="carousel" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    <div class="carousel-inner">
+      <div  class="carousel-item active c-item">
+        <img src="../../../assets/imgs/img5.jpg"  class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption top-0 mt-5 ">
+            <h1 class="display-1 fw-bolder fs-1 mt-4">Your Health <br> Mattars</h1>
+            <p>See how we are making it safe for you !</p>
+            <a routerLink="/patient"><button class="btn btn-primary px-4 py-2 fs-5 mt-5">Patients & Visitors</button></a>
+          </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="../../../assets/imgs/img4.jpg"  class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption top-0 mt-5 ">
+            <h1 class="display-1 fw-bolder fs-1 mt-4">Book <br> An Appointment</h1>
+            <p>You can book your appointment via our website,social media channels or hotline number.</p>
+            <a routerLink="/Book Now"><button class="btn btn-primary px-4 py-2 fs-5 mt-5">Book Now</button></a>
+        </div>
+      </div> 
+      <div class="carousel-item c-item">
+        <img src="../../../assets/imgs/img2.jpg"  class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption top-0 mt-5 ">
+            <h1 class="display-1 fw-bolder fs-1 mt-4">Get Closer To Us.</h1>
+            <p>Take a tour to know us.</p>
+            <a routerLink="/Take A Tour"><button class="btn btn-primary px-4 py-2 fs-5 mt-5">Take A Tour</button></a>
+          </div>
+      </div>
+    </div>
+    <button colo class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--fakecards -->
+  <div class="container mt-3 mb-5">
+    <div class="row">
+            <div class="col-lg-4 mt-2">
+             <div class="box">   
+                <a href="#mapp"> <h3 class="mar mt-5">Find Our Location</h3></a>
+                <a href="#mapp"><p>Click here to get the map to direct you</p></a>
+             </div>   
+            </div>
+            <div class="col-lg-4 mt-2">
+            <div class="box">    
+                <a routerLink="/Our Team"> <h3 class="mar mt-5">Our Team</h3></a>
+                <a routerLink="/Our Team"><p>Know more about our staff</p></a>
+              </div>
+            </div>
+            <div class="col-lg-4 mt-2">
+            <div class="box"> 
+              <a routerLink="/Book Now"> <h3 class="mar mt-5">Book Now</h3></a>
+              <a routerLink="/Book Now"><p>Choose an appointment</p></a>
+              </div>
+            </div>
+    </div>
+  </div>
+  <div class="containerr">
+  <div class="center"><h1>Stay Up To Date</h1><p>There is always something new! Check out the latest news and <br> stay updated with our images and videos.</p></div>
+  </div>
+  <div class="containeerr">
+  <div class="row myrow">
+    <div class="col-lg-4 myimgs">
+        <img src="../../../assets/imgs/img1.jpg"  class="d-block w-100 c-img" alt="...">
+        <a routerLink="/first">
+        <h1>Safety & Infection Control</h1>
+        <p>Check out more information about safety measures and infection control</p></a>
+        <a target="_blank" routerLink="/first"><button class="btnbtt">Learn more</button></a>   
+    </div>
+    <div class="col-lg-4 myimgs">
+        <img src="../../../assets/imgs/img6.jpg"  class="d-block w-100 c-img" alt="...">
+        <a routerLink="/second">
+            <h1>International Patients</h1>
+            <p>For our international patients, please click the link below for guidance and assistance</p></a>
+            <a target="_blank" routerLink="/second"><button class="btnbtt">Learn more</button></a>   
+          </div>
+    <div class="col-lg-4 myimgs">
+        <img src="../../../assets/imgs/img3.jpg"  class="d-block w-100 c-img" alt="...">
+        <a routerLink="/third">
+            <h1>Accreditations & Affiliations</h1>
+            <p>Learn more about our partners, affiliations and accreditations</p></a>
+            <a target="_blank" routerLink="/third"><button class="btnbtt">Learn more</button></a>   
+    </div>
+  </div></div>
+  <!--location -->
+  <div class="map">
+    <iframe id="mapp" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3435.0665606393873!2d31.006330014964124!3d30.57566638169218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7d6bf14e416e9%3A0xc49ca19e02abe2d2!2sFaculty%20of%20Computers%20and%20Information%20Menofia%20University!5e0!3m2!1sen!2seg!4v1678128793220!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  

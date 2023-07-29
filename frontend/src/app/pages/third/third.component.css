@@ -1,0 +1,4 @@
+h1{color:var(--secondary-color);font-weight: bold;text-align: center;margin-top: 20px;}
+p{color:rgb(70, 68, 68);margin-top: 40px;font-size: 20px;margin-left: 20px;}
+.span{color: var(--secondary-color);font-weight: bold;}
+.d-block{height: 40%;width:30% ;margin-top: 100%;margin-left: 25%;}

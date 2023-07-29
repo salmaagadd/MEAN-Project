@@ -1,0 +1,25 @@
+/*icon1*/
+.head h1{margin-top: 100px;margin-left: 450px; color: var(--primary-color);font-weight: bolder;}
+.head p{margin-top:20px;margin-left: 150px; color: var(--secondary-color);font-size: larger;}
+.icon1 img{height: 50px;width: 50px;}.prag h1{ float: left;padding-left:50px ;color: var(--primary-color);font-size:x-large;font-weight: bold;}.prag{margin-left: 30px; border-radius: 20px;}
+.icon1{margin-left: 80px;margin-top: 100px;display: flex;align-items: center;}.pra{color:var(--secondary-color);font-size: medium;font-weight: lighter;}
+a img:hover{color:darkgray;background-color: var(--primary-color);}.prag:hover{color:var(--primary-color);background-color:darkgray;}.btn{font-weight: bolder; height: 50px; background-color:var(--primary-color) ;color: #fff;margin-left: 210px;margin-top: 20px;}
+/*icon2*/
+.icon2 img{height: 50px;width: 50px;}
+.icon2{margin-left: 80px;margin-top: 100px;display: flex;align-items: center;}
+/*icon3*/
+.icon3 img{height: 50px;width: 50px;}
+.icon3{margin-left: 80px;margin-top: 100px;display: flex;align-items: center;}
+/*icon4*/
+.icon4 img{height: 50px;width: 50px;}
+.icon4{margin-left: 80px;margin-top: 100px;display: flex;align-items: center;}
+/*icon5*/
+.icon5 img{height: 50px;width: 50px;}
+.icon5{margin-left: 80px;margin-top: 100px;display: flex;align-items: center;}
+/*icon6*/
+.icon6 img{height: 50px;width: 50px;}
+.icon6{margin-left: 80px;margin-top: 100px;display: flex;align-items: center;}
+/*icon7*/
+.icon7 img{height: 50px;width: 50px;}
+.icon7{margin-left: 80px;margin-top: 100px;display: flex;align-items: center;}
+.map{margin-top: 70px ;justify-content: center;margin-left: 350px;}
